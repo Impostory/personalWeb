@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>
+            contact form        
+        </title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+
+    <body>
+        <nav class="nav1">
+            <div class="container1">
+
+                <div class="homeimage">
+                    <a href="index.html"><img src="../assets/NoName.png" alt=""></a>
+                </div>
+    
+                <div class="menu1">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <a href="../W2D1/Day-5/blog.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu2">
+                    <ul>
+                        <li>
+                            <a href="ContactForm.html">call me</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+             </div>
+        </nav>
+
+        <div class="container3">
+            <div class="formbox1">
+                <form action="">
+                    <div class="name">
+                        <label for="name1" >Name</label>
+                        <input id="name1" type="text">
+                    </div>
+
+                    <div class="email">
+                        <label for="email1" >Email</label>
+                        <input id="email1" type="text">
+                    </div>
+
+                    <div class="phone">
+                        <label for="phone1" >Phone number</label>
+                        <input id="phone1" type="number">
+                    </div>
+
+                    <div class="subject">
+                        <label for="subject1" >Subject</label>
+                         <select id="subject1">
+                            <option value=""></option>
+                            <option >keluhan nomor satu</option>
+                            <option >keluhan nomor dua</option>
+                         </select>
+                    </div>
+
+                    <div class="SectionBox">
+                        <label for="section1">section</label>
+                        <div class="SectionChoose">
+                            <div class="SectionChooseBox">
+                                <input type="checkbox" id="CheckCSS" >
+                                css
+                            </div>
+                            <div class="SectionChooseBox">
+                                <input type="checkbox" id="CheckHTML" >
+                                html
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <br>
+
+                    <div class="ContentForm">
+                        <textarea name="content" id="content1" cols="40" rows="20"></textarea>
+                    </div>
+                    <br>
+                    <div class="SubmitBotton">
+                        <button  type="button" onclick="klik()">
+                            <label > submit</label>
+                        </button>
+                    </div>                  
+                </form> 
+            </div>
+        </div>
+        <script src="form.js"></script>
+    </body>
+    
+
+</html>
